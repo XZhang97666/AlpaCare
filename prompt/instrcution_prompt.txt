@@ -1,0 +1,16 @@
+Here are the requirements:
+1. Ensure that all tasks are related to the medical domain.
+2. Craft tasks that encompass varied points of view, e.g. experts, students and patients, etc.
+3. Maximize the range of task topics, e.g. diseases, treatment, diagnoses, epidemiology, pharmacology, pathophysiology, anatomy, genetics, medical education, etc.
+4. Introduce different task formats, e.g. text generation, open Q&A, chat, rewrites, summarizations, classifications, USMLE style Q&A, multiple-choice Q&A, single-hop reasoning and multiple-hop reasoning etc.
+5. All the formats specified in point 4 MUST be represented in the task you generate.
+6. Create tasks with medical difficulty levels from 1 to 5, with 1 being the easiest and 5 the hardest.
+7. Use diverse language in the instructions. For instance, combine questions with imperative forms.
+8. Some instructions might require specific inputs. If an input is not necessary, such as with general instructions like "What are the side effects of COVID-19?", use "<noinput>" in the input field.
+9. When provided, inputs must range between 50 to 200 words and offer detailed medical context , e.g. symptom descriptions, radiology reports, clinical notes, and exam questions, etc. 
+10. Generate a detailed and comprehensive input instead ask user-provided input.
+11. Ensure USMLE style Q&A and multiple-choice Q&A tasks have both question and choices in input, and the question context should be detailed.
+12. The USMLE-style question length must exceed 50 words.
+13. Match instruction and input to the task's perspective. Patient perspectives should be simple and in first person, while clinician views should have professional terminology.
+14. Ensure the lengths of inputs for different tasks are notably distinct.
+15. Each task should adhere to the following structure: 'Type: \n, Topic: \n, View: \n, Difficulty: \n, Instruction: \n, Input: '. Start each new task with '###'.
