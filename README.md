@@ -17,7 +17,14 @@ This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. T
     4. response evaluation via LLMs.
 
 ## Overview
-AlpaCare models contain 4 models (7B/13B - LLaMA[1]/LLaMA-2[2]) tuned on a 52k medical instruction-following dataset, following Alpaca[3] and Self-Instruct[4].
+*AlpaCare* models contain 4 models (7B/13B - LLaMA[1]/LLaMA-2[2]) tuned on a 52k medical instruction-following dataset *MedInstruct-52k*, following Alpaca[3] and Self-Instruct[4]. 
+
+To set up conda enviroment for data generation/model training, please do:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 [1]: LLaMA: Open and Efficient Foundation Language Models. Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien Rodriguez, Armand Joulin, Edouard Grave, Guillaume Lample. https://arxiv.org/abs/2302.13971v1 
 
@@ -100,14 +107,10 @@ We follows [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) prompt to 
 For the instruction-finetuning of LLaMA/LLaMA-7B:
 ```
 sh training/train_7b.sh
-For the instruction-finetuning of LLaMA/LLaMA-13B:
-sh training/train_13b.sh
 ```
-
-To reproduce our fine-tuning runs for LLaMA, first install the requirements
-
-```bash
-pip install -r requirements.txt
+For the instruction-finetuning of LLaMA/LLaMA-13B:
+```
+sh training/train_13b.sh
 ```
 
 
