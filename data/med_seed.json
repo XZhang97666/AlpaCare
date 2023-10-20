@@ -1,0 +1,1338 @@
+[
+    {
+        "topic": "Neurology",
+        "view": "Student",
+        "type": "Open Q&A",
+        "instruction": "Explain what multiple sclerosis is and its pathophysiology.",
+        "input": "<noinput>",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Student",
+        "type": "Text generation",
+        "instruction": "Develop an informative paragraph about 'beta blockers' including their benefits and side effects.",
+        "input": "<noinput>",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Physician",
+        "type": "Classification",
+        "instruction": "Classify the given patient's symptoms into possible diseases or conditions.",
+        "input": "Patient presents with constipation, muscle weakness, abnormal heart rhythms and fatigue.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diabetes Treatment",
+        "view": "Patient",
+        "type": "Chat",
+        "instruction": "Ask questions regarding managing diabetes effectively.",
+        "input": "I was recently diagnosed with type 2 diabetes. I am 68 years old and have been diagnosed with hypertension and artherosclerosis for more than 5 years. What changes should I make in my diet and lifestyle to manage this disease effectively?",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Medical Training",
+        "type": "Rewrite",
+        "instruction": "Simplify the provided medical diagnosis into day-to-day, understandable language for a patient. Exmplain in layman's language about what the diagnosis is and briefly introduce the treatment plan and any further interventions.",
+        "input": "You have been diagnosed with idiopathic pulmonary fibrosis.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pulmonology",
+        "view": "Student (Medicine)",
+        "type": "Open Q&A",
+        "instruction": "Explain the clinical significance of surfactant in our lungs.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Dermatology",
+        "view": "Healthcare provider",
+        "type": "Classification",
+        "instruction": "Classify the described skin condition into possible dermatological diseases.",
+        "input": "Patient's skin exhibits strong localised redness, swelling, itching, and dryness.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Endocrinology",
+        "view": "Medical Resident",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Choose the correct answer best explaining Grave\u2019s disease.",
+        "input": "Which of these is typically associated with Grave's Disease? A. Hypothyroidism B. Hyperthyroidism C. Normal thyroid levels",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Anatomy/ Radiology",
+        "view": "Radiologist",
+        "type": "Text Generation",
+        "instruction": "Describe a typical MRI scan process to a patient who is about to undergo one. Explain the basic mechanism of how the MRI is running, and the preparation the patient need to do a MRI scan.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Mental Health",
+        "view": "Parent of teenager",
+        "type": "Chat",
+        "instruction": "Ask questions you may have about spotting signs and discussing depression in your teenage child.",
+        "input": "I'm concerned about my 16-year-old son who seems more reclusive lately and appears down all the time. I don't know how to identify if he is dealing with depression or how to discuss it with him.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Pathology Student",
+        "type": "Text Generation",
+        "instruction": "Write an essay explaining the pathophysiology of Cystic Fibrosis. Make sure it is detailed, but understandable for beginning medical students.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Registered Nurse",
+        "type": "USMLE style Q&A",
+        "instruction": "Use your nursing knowledge to answer a question about pharmacological treatment.",
+        "input": "A 45-year-old male presents to the emergency department with severe chest pain that started suddenly about 30 minutes ago. He describes the pain as a crushing sensation in the center of his chest, which radiates to his left arm. He also reports sweating and shortness of breath. His past medical history is significant for hypertension, hyperlipidemia, and type 2 diabetes mellitus. He currently takes amlodipine, atorvastatin, and metformin. On physical examination, the patient appears diaphoretic and anxious. His blood pressure is 160/90 mm Hg, heart rate is 110 beats/min, respiratory rate is 20 breaths/min, and oxygen saturation is 96% on room air. Cardiac auscultation reveals regular rhythm with normal S1 and S2 sounds. No murmurs or gallops are appreciated. There is no jugular venous distention. Lung examination is clear bilaterally. An ECG is obtained, which shows ST-segment elevation in leads II, III, and aVF. The troponin I level is elevated at 2 ng/mL (reference range: <0.03 ng/mL). Which of the following is the most appropriate next step in the management of this patient? A) Administration of aspirin and clopidogrel; B) Immediate coronary angiography with percutaneous coronary intervention (PCI); C) Intravenous nitroglycerin and beta-blocker therapy; D) Initiation of heparin therapy; E) Observation and repeat ECG in 2 hours",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "Explain where the adrenal glands are located and what functions they serve in the human body.",
+        "input": "<noinput>",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Genetic",
+        "view": "Genetics Researcher",
+        "type": "Summarizations",
+        "instruction": "Summarize this latest research on genetic mutations leading to cancer.",
+        "input": "Recent studies at our institute have focused on the intricate nature of genetic mutations affecting cell growth pathways and leading to cancer. One protein, P53, known as the 'guardian of the genome,' is proving particularly interesting due to its role in regulating the cell cycle and thus preventing cancer. Mutation of the P53 gene, found in many tumor types, leads to a version of P53 that does not function correctly, leading to unregulated cell growth.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Intern Doctor",
+        "type": "Single-hop Reasoning",
+        "instruction": "Based on these symptoms, provide a possible diagnosis and explain your reasoning.",
+        "input": "Patient is a 27-year old female presenting with sudden weight loss, fatigue, excessive thirst and frequent urination. Lab reports show sugar concentrations in her urine and blood glucose levels are higher than normal.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Med School Professor",
+        "type": "Rewrites",
+        "instruction": "Rephrase this complicated paragraph about hemoglobin into a simpler, more easily digestible explanation for medical students.",
+        "input": "Hemoglobin is an iron-rich protein responsible for the reddish color of erythrocytes that has a crucial role in transferring oxygen in your blood from lungs to the tissues.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Epidemiologist",
+        "type": "Classifications",
+        "instruction": "Classify these diseases as either infectious or noninfective:",
+        "input": "Diabetes, HIV/AIDS, Hepatitis C, Hypertension, Influenza, Asthma, HPV, Rheumatoid arthritis.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Patient",
+        "type": "Multiple-choice Q&A",
+        "instruction": "From the given options, select the best answer to the question.",
+        "input": "What should I do if I accidentally skip my antihypertensive medication dosage? A. Double up on the next dose. B. Continue with your regular schedule during the next dosage time. C. Stop all medications.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Radiographer",
+        "type": "Chat",
+        "instruction": "Conduct a chat simulation explaining a radiology report to a patient in simple terms.",
+        "input": "The thoracic spine MRI reveals mild disc bulging at T5-T6 and T6-T7 causing light impingement on the anterior aspect of the spinal cord.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Intensive Care Unit (ICU) Nurse",
+        "type": "Open Q&A",
+        "instruction": "Provide a brief explanation of ARDS and its common causes.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Physical Therapist",
+        "type": "USMLE style Q&A",
+        "instruction": "Use your expertise to answer the question.",
+        "input": "A 58-year-old male presents to the physical therapy clinic with complaints of lower back pain that has been persistent for the past 6 months. He describes the pain as a dull ache that worsens when he stands or walks for extended periods. The pain occasionally radiates down his left leg to the calf but does not extend to the foot. He denies any recent trauma or fevers. On examination, you note tenderness over the lumbar paraspinal muscles and restricted lumbar range of motion, especially in extension and lateral flexion to the left. He has no motor deficits in the lower extremities, and deep tendon reflexes are intact. Which of the following physical therapy interventions is most appropriate for this patient's condition? A) Lumbar spine traction; B) Lumbar stabilization exercises; C) Hamstring stretching exercises; D) Electrical stimulation therapy; E) Bed rest and pain medication",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Treatment",
+        "view": "General Practitioner",
+        "type": "Summarizations",
+        "instruction": "Summarize the plan for treating this medical case.",
+        "input": "Patient is a 52-year-old male smoker recently diagnosed with Chronic Obstructive Pulmonary Disease (COPD). His exercise tolerance has diminished significantly over several years, and he reports chronic cough with mucus production.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Health Educator",
+        "type": "Chat",
+        "instruction": "Engage in a chat simulation addressing a person's concerns about diabetes prevention.",
+        "input": "Hello, I have a family history of diabetes. I am only 12 years old but I really worried that I will get diabetes in the future. I think it is an awful disease and will affect my life a lot. What lifestyle modifications can you suggest to prevent me from getting it?",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Genetic counselor",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Explain the most accurate answer choice.",
+        "input": "What is the inheritance pattern of Huntington's disease? A. Autosomal Dominant B. Autosomal Recessive C. X-linked",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Pharmacy Student",
+        "type": "Classifications",
+        "instruction": "Classify these drugs as either antibiotics, antivirals or antifungals.",
+        "input": "Penicillin, Lamivudine, Fluconazole",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Expert",
+        "type": "Text Generation",
+        "instruction": "Generate a summary about the global impact of the COVID-19 pandemic based on the following statistics.",
+        "input": "As of October 2021, there are over 240 million confirmed cases of COVID-19 globally. With more than 4.9 million total deaths so far, the virus's global mortality rate is approximately 2%. The USA reports the highest number of cases at over 45 million, while India and Brazil follow closely with around 34 and 21 million cases respectively. The disease has significantly strained health systems worldwide and heavily affected world economies.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Student",
+        "type": "Open Q&A",
+        "instruction": "What is the mechanism of action of aspirin? Compare and contrast aspirin and celecoxib. ",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert",
+        "type": "Rewrite",
+        "instruction": "Rewrite the provided explanation in layman terms for patients to comprehend.",
+        "input": "Heart failure refers to a clinical syndrome characterized by a decrease in cardiac output sufficient to compromise tissue perfusion. There are right heart failure and left heart failure, and HFrEF and HFpEF.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Student",
+        "type": "Chat",
+        "instruction": "As a student seeking advice, engage in a conversation asking about studying techniques for Anatomy courses.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Patient",
+        "type": "Summarization",
+        "instruction": "Based on this description of your genetic condition, provide a one-sentence summary to the anxious patient.",
+        "input": "Hemochromatosis is a genetic disorder characterized by the excessive absorption and accumulation of iron in the body. Iron is an essential mineral that the body needs for various functions, such as carrying oxygen in the blood and aiding in the production of red blood cells. However, in hemochromatosis, the body absorbs too much iron from the diet and is unable to properly regulate its levels, leading to iron overload. There are two main types of hemochromatosis: Hereditary Hemochromatosis (HHC), and Secondary Hemochromatosis. Iron overload in hemochromatosis can lead to the deposition of excess iron in various organs, including the liver, heart, pancreas, and joints. Over time, this can cause damage to these organs and result in a range of symptoms and complications, such as fatigue, joint pain, abdominal pain, etc.",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Expert",
+        "type": "Multiple-choice Q&A",
+        "instruction": "From provided options, choose the correct answer that describes the function of myocardium.",
+        "input": "What is the function of Myocardium? A) It separates chambers of the heart B) It helps in regulation of body temperature C) It pumps blood throughout our bodies D) It stores nutrients",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Treatments",
+        "view": "Patient",
+        "type": "Single-hop reasoning",
+        "instruction": "Given the description of your symptoms, reason out why you might be prescribed antibiotics and the type of antibiotics that you recommended the most.",
+        "input": "You have had a high fever lasting more than 3 days accompanied by a severe cough producing yellow sputum. Your chest X-ray showed large white shadows.",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert",
+        "type": "Multi-hop reasoning",
+        "instruction": "Based on previously understood mechanisms, deduce how an elevated heart rate can affect ventricular filling time.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Disease",
+        "view": "Clinician",
+        "type": "Text Generation",
+        "instruction": "Generate a detailed report of Diabetes Mellitus type 1 based on these patient\u2019s symptoms and lab results.",
+        "input": "\u201c5-year-old girl presents with sudden weight loss, increased thirst, frequent urination, and ongoing fatigue. Family history reveals diabetes in grandparents. Laboratory tests confirm hyperglycemia and acidosis.\u201d",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Clinical trial report",
+        "view": "Expert",
+        "type": "Summarization",
+        "instruction": "Provide a brief summary detailing the key findings of this clinical trial report.",
+        "input": "A recent phase 3 clinical trial has shown that the novel drug SuperImmuno significantly reduces tumor size in patients with advanced pancreatic cancer. The drug, which works by boosting the immune response against cancerous cells, has displayed fewer side effects compared to traditional chemotherapy.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Reports",
+        "view": "Clinician",
+        "type": "Classification",
+        "instruction": "Classify the stage of breast cancer based on the TNM classification provided below.",
+        "input": "Tumor(T): T2 (2-5cm) ; Nodes(N): N1 (micrometastases); Metastasis(M): M0(no distant metastasis).",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Patient",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Choose the best option for treating your hypertension from the possibilities given.",
+        "input": "What is the most effective initial step in managing hypertension? A) Healthy lifestyle changes B) Creating a stress-free environment C) Medication D) Regular check-ups",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Virology",
+        "view": "Student",
+        "type": "Open Q&A",
+        "instruction": "What is antigenic drift and why it's important for influenza virus? Compare and contrast antigenic drift vs. antigenic shift?",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Medical student",
+        "type": "Text Generation",
+        "instruction": "Write a summary about the trend of COVID-19 infections during 2019 to 2022 in your country based on your understanding.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Patient",
+        "type": "Open Q&A",
+        "instruction": "You've been prescribed Prednisone. Ask any questions you may have regarding its use, potential side effects or any other aspect relevant to you.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert clinician",
+        "type": "Chat",
+        "instruction": "Discuss diagnosing and treating Ischemic Heart Disease from a pathophysiologic perspective.",
+        "input": "A 52-year-old male with a history of type II diabetes presents with chest pain that is relieved by rest.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical student",
+        "type": "Rewrites",
+        "instruction": "Rewrite the provided description about brain anatomy into simpler language that a non-medical person can understand, and explain some jargons in depth.",
+        "input": "The brain is divided into two hemispheres, each consisting of four lobes \u2013 the frontal, parietal, occipital, and temporal. Each lobe is responsible for different functions.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Biochemistry professor",
+        "type": "Summarizations",
+        "instruction": "Summarize the applications of CRISPR technology in medical genetics.",
+        "input": "CRISPR is a revolutionary gene-editing system that allows scientists to precisely edit DNA sequences and modify gene function. Its many potential applications include correcting genetic defects, treating and preventing the spread of diseases and improving crops.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Medical education",
+        "view": "Educationist",
+        "type": "Classifications",
+        "instruction": "Given this scenario, classify which stage of Bloom\u2019s taxonomy it represents.",
+        "input": "Biochemistry students are given a metabolic pathway and asked to reason out the probable effects if one enzyme step gets inhibited.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Medical student",
+        "type": "USMLE style Q&A",
+        "instruction": "Answer a USMLE style single-step reasoning question.",
+        "input": "A 55-year-old male presents to his primary care physician for a routine check-up. His blood pressure measurements over the past three visits have consistently been elevated, with readings averaging 160/100 mm Hg. He has no significant medical history and is not currently taking any medications. Physical examination reveals an overweight individual with a body mass index (BMI) of 30 kg/m². Laboratory tests show no evidence of diabetes or renal dysfunction. The patient's electrocardiogram (ECG) is normal. What is the most appropriate initial step in managing this patient's hypertension? A) Initiate antihypertensive medication with a thiazide diuretic; B) Recommend lifestyle modifications, including dietary changes and increased physical activity; C) Prescribe a beta-blocker to lower blood pressure; D) Order a 24-hour ambulatory blood pressure monitoring; E) Refer the patient to a specialist for further evaluation",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Patient",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Ask which diagnosis matches your given symptom using multiple choices.",
+        "input": "Choices: Diabetes, Thyroid disorder, Celiac disease / Symptom: I am feeling constantly tired, thirsty and urinating frequently.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Physician",
+        "type": "Single-hop Reasoning",
+        "instruction": "Prescribe a suitable follow-up strategy based on this patient\u2019s recent treatment progress.",
+        "input": "An elderly patient was initiated on Warfarin therapy four weeks ago for atrial fibrillation with no complications reported so far.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Disease progression",
+        "view": "Nurse",
+        "type": "Multiple-hop Reasoning",
+        "instruction": "Given an account of a patient\u2019s symptoms over time, draw conclusions about their condition's progression and potential needs.",
+        "input": "\u201cThe patient first presented with fatigue and shortness of breath but has recently experienced frequent infections and bruising.\u201d",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Psychiatric diseases",
+        "view": "Psychiatrist",
+        "type": "Text Generation",
+        "instruction": "Write a brief note about the therapeutic interventions that can be used in treating depression.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Medical professionals ethics",
+        "view": "Health policy maker",
+        "type": "Chat",
+        "instruction": "Discuss the implications of doctors receiving gifts from pharmaceutical companies in a chat conversation.",
+        "input": "<noinput>",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Public health",
+        "view": "Community public health worker",
+        "type": "Open Q&A",
+        "instruction": "Ask questions related to the public health response to COVID-19 in your community.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Medical student",
+        "type": "USMLE style Q&A",
+        "instruction": "Answer a USMLE style question on the treatment of a certain condition.",
+        "input": "A 65-year-old male with a history of hypertension and hyperlipidemia presents to the emergency department with sudden-onset right-sided weakness, slurred speech, and difficulty swallowing. The symptoms started approximately 2 hours ago. On physical examination, the patient has right-sided hemiparesis and facial droop. His National Institutes of Health Stroke Scale (NIHSS) score is 14. Non-contrast head CT scan is performed and shows no evidence of hemorrhage. What is the most appropriate initial step in the management of this patient? A) Administer intravenous tissue plasminogen activator (tPA); B) Initiate anticoagulation therapy with heparin; C) Obtain an MRI of the brain; D) Begin aspirin therapy; E) Consult neurosurgery for immediate intervention",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Clinical notes",
+        "view": "Physician",
+        "type": "Summarizations",
+        "instruction": "Summarize the key points from this patient's clinical note for review in a multidisciplinary team meeting.",
+        "input": "Patient is a 38-year old female, known case of COPD. She was admitted following a sudden shortness of breath at home. Attempts to manage her oxygen levels at home failed. On presentation, she had increased work of breathing, scattered wheezes and rhonchi.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Medical Student",
+        "type": "Text Generation",
+        "instruction": "Write a comprehensive summary of the pathophysiology behind Alzheimer's disease.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Primary Care Physician",
+        "type": "Open Q&A",
+        "instruction": "How would you interpret this patient's radiology report?",
+        "input": "The chest X-ray shows consolidation in the left lower lobe and pleural effusion.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Genetic Counselor",
+        "type": "Chat",
+        "instruction": "Explain the probability of inheriting sickle cell anemia to a potential parent who carries the trait.",
+        "input": "I've recently learned I'm a carrier for the sickle cell trait, what are the chances my child will have sickle cell anemia?",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Pharmacist",
+        "type": "Rewrite",
+        "instruction": "Provide a simplified explanation about how statins work for a patient with a recent heart attack diagnosis. Make sure a patient and their families can understand and reduce their anxiety or negative feelings. ",
+        "input": "Statins function by inhibiting the enzyme HMG-CoA reductase, which plays a central role in the production of cholesterol.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Public Health Officer",
+        "type": "Summarization",
+        "instruction": "Briefly summarize the key findings of the ongoing COVID-19 pandemic's impact on global health.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Doctor",
+        "type": "Classification",
+        "instruction": "Based on presented symptoms, classify whether it could be bacterial or viral pneumonia.",
+        "input": "Patient presenting with high fever, cough producing green phlegm, shortness of breath and severe chest pain.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "Single-hop Reasoning",
+        "instruction": "Determine which organ is affected based on given set of symptoms.",
+        "input": "Symptoms include jaundice, dark urine, extreme fatigue, nausea, and abdominal pain.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Infectious Disease Specialist",
+        "type": "Multiple-hop Reasoning",
+        "instruction": "Confirm a diagnosis by reconciling symptoms, patient history and exposure.",
+        "input": "Patient presents with itchy rash, fever, headache, and muscle aches; recently travelled to a region endemic for Tick-borne diseases.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Oncologist",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Select the correct line of therapy given a certain medical condition.",
+        "input": "Question: What is the first-line treatment for a 33-year old male with early-stage Hodgkin lymphoma and diabetes? Answer choices: A) Radiation therapy B) Chemotherapy C) Immunotherapy D) Targeted therapy",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Pathology Resident",
+        "type": "USMLE style Q&A",
+        "instruction": "Assess your knowledge on pathology by answering this question.",
+        "input": "A 65-year-old woman presents to her primary care physician with a complaint of difficulty swallowing for the past several months. She describes a sensation of food getting stuck in her throat, particularly when she tries to swallow solid foods. She denies any pain with swallowing, regurgitation of food, or heartburn symptoms. The patient's medical history is significant for long-standing gastroesophageal reflux disease (GERD) that has been well-controlled with proton pump inhibitors (PPIs) for several years. She is a non-smoker and consumes alcohol occasionally. On examination, there are no palpable neck masses, and her neurological examination is normal. Which of the following is the most likely cause of this patient's dysphagia? A) Achalasia; B) Esophageal stricture; C) Zenker's diverticulum; D) Gastroesophageal reflux disease (GERD); E) Esophageal cancer ",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "Text Generation",
+        "instruction": "Generate an introduction for a lecture presentation on 'The Circulatory System'.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetic Disorders",
+        "view": "Genetic Researcher",
+        "type": "Open Q&A",
+        "instruction": "Based on the provided DNA mutation, predict possible genetic disorders.",
+        "input": "ATC codon changed to ATG in the gene coding for phenylalanine hydroxylase.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Biochemistry",
+        "view": "Biochemistry Professor",
+        "type": "Chat",
+        "instruction": "Discuss how cortisol maintains blood glucose levels during periods of stress. List a drug that applies this mechanism to treat a disease. Explain the drug's mechanism of action and adverse effects.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Technology",
+        "view": "Health Tech Specialist",
+        "type": "Rewrite",
+        "instruction": "Revise this technical description of how an MRI machine works into simpler terms for a general audience.",
+        "input": "MRI operates by subjecting the body to a strong magnetic field that polarizes protons within cells. When radiowaves are added, these protons absorb the energy and emit signals which form images when processed.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Nutrition Analysis",
+        "view": "Dietician",
+        "type": "Classification",
+        "instruction": "Review and classify this meal as balanced or imbalanced nutritionally",
+        "input": "For lunch, a patient had a grilled chicken sandwich with lettuce and tomatoes, small fries, and a diet soda.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology of Diabetes",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "Describe the pathophysiology of type 2 diabetes in layman's terms.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Disease management",
+        "view": "Patient",
+        "type": "Text generation",
+        "instruction": "Write a diary entry talking about your experiences managing your chronic asthma and the effects of weather conditions on it.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Pharmacist",
+        "type": "Chat",
+        "instruction": "Respond to an inquiry for more information regarding the side effects of a new arthritis medication.",
+        "input": "Can you tell me about the possible side-effects of drug X that I've been prescribed for my arthritis?",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Public health officer",
+        "type": "Summarization",
+        "instruction": "Consolidate a lengthy report into an executive summary detailing the current status, risks and containment strategy of recent measles outbreak in city Y.",
+        "input": "A lengthy epidemiological report on a recent measles outbreak in city Y.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Genetic Counsellor",
+        "type": "Rewrites",
+        "instruction": "Translate genetic terminology and concepts into simpler language for patient understanding.",
+        "input": "Miss Smith, after a detailed analysis of your genome, we've found that you have a mutation in the BRCA1 gene, which significantly increases your risk of developing breast and ovarian cancer. The chance of getting the disease would be...",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Radiology reports",
+        "view": "x-ray Technician",
+        "type": "Classification",
+        "instruction": "Categorize the given radiology report based on its findings - Is it normal or abnormal?",
+        "input": "Chest X-Ray: Moderate Cardiomegaly with unfolding of the thoracic aorta.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "USMLE style Q&A",
+        "instruction": "Answer a standard USMLE step-1 style question about human anatomy with clear reasoning.",
+        "input": "A 68-year-old male with a history of hypertension and smoking presents to the emergency department with severe, tearing chest pain that radiates to his back. The pain began suddenly, and he describes it as the worst pain of his life. On physical examination, his blood pressure is 200/110 mm Hg in the right arm and 100/60 mm Hg in the left leg. There is a notable difference in blood pressure between the arms. He appears anxious and diaphoretic. Cardiac auscultation reveals a diastolic murmur along the left sternal border. Chest X-ray shows a widened mediastinum. Which of the following is the most likely diagnosis in this patient? A) Myocardial infarction; B) Pulmonary embolism; C) Aortic dissection; D) Pericarditis; E) Esophageal rupture",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pathology",
+        "view": "Medical Student",
+        "type": "Multiple-choice Q&A",
+        "instruction": "You are presented with a case study along with multiple choices. Choose the correct diagnosis for this patient.",
+        "input": "A 30 years old female firstly complained about tiredness and weakness in her legs that ascends towards her upper body progressively. She also has difficulty swallowing and speaks with a nasal tone. The presenting condition is likely due to? A) Hirschsprung disease B) Myasthenia Gravis C) Gigantism D) Addision disease.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Infectious Diseases",
+        "view": "Doctor",
+        "type": "Single-hop reasoning",
+        "instruction": "Using your professional expertise, answer the question about a specific infectious disease.",
+        "input": "What type of transmission does Hepatitis C involve?",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pediatrics",
+        "view": "Pediatrician",
+        "type": "Multiple Hop Reasoning",
+        "instruction": "Answer the following complex clinical questions using logical medical reasoning.",
+        "input": "Two months ago, a one-year-old boy was started on seizure medication after being diagnosed with infantile spasms. His mother now reports he's showing signs of irritability, vomiting and weight gain. What could be the potential cause?",
+        "difficulty": "4"
+    },
+    {
+        "topic": "General Medicine",
+        "view": "Patient",
+        "type": "Rewrite",
+        "instruction": "Translate this prescription instruction formulated by a doctor into a simpler version you'd understand and follow easily.",
+        "input": "Amoxicillin 500mg q12h.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Public Health",
+        "view": "Government Official",
+        "type": "Text Generation",
+        "instruction": "Write a speech about the importance of tuberculosis vaccination and its impact on public health.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Neurosciences",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "Explain the concepts of neuroplasticity and how it plays a role in stroke recovery?",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Histopathology report analysis",
+        "view": "Pathologist",
+        "type": "Classification",
+        "instruction": "Interpret this histopathology report & classify the nature of biopsy sample.",
+        "input": "Microscopic Description: The sections show a tumor composed of cells forming glands and invading the smooth muscle. The glands are irregular, with significant nuclear enlargement and hyperchromasia.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Clinical Study Results",
+        "view": "Scientist",
+        "type": "Summarization",
+        "instruction": "Summarize key findings from this provided research paper discussing clinical trial results of potential Alzheimer's drug.",
+        "input": "A detailed 50-page research study discussing the trial results for an experimental Alzheimer's drug.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Patient",
+        "type": "Open Q&A",
+        "instruction": "Describe the side effects of the prescribed medication.",
+        "input": "<noinput>",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diagnosis",
+        "view": "Expert (Doctor)",
+        "type": "Text Generation",
+        "instruction": "Compose an initial diagnosis based on the provided patient symptoms.",
+        "input": "A 58-year-old woman presents with severe headache, blurred vision, and dizziness for two days. She recently started a new diabetes medication.",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Student",
+        "type": "Chat",
+        "instruction": "Discuss your struggles with understanding lung anatomy and request tips for study methods.",
+        "input": "<noinput>",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "General Public",
+        "type": "Rewrites",
+        "instruction": "Rewrite the scientific explanation of epidemiological curve into simple language.",
+        "input": "The epidemiological curve is a statistical graph used in epidemiology to represent the timing of a series of events. It's usually used to visualize disease outbreaks.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert (Pathologist)",
+        "type": "Summarization",
+        "instruction": "Provide a brief summary of Parkinson's Disease pathophysiology.",
+        "input": "Parkinson's disease is a type of movement disorder that can affect the ability to perform everyday activities. It's typically characterized by persistent tremors, lack of coordination, and difficulties in speech. The onset of Parkinson\u2019s is linked to degeneration of dopaminergic neuron in an area of the brain known as substantia nigra and formation of Lewy bodies (protein aggregates) inside the neurons.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Researcher",
+        "type": "Classification",
+        "instruction": "Classify the genetic disorder based on given chromosomal aberration report.",
+        "input": "The cytogenetic analysis showed 47, XY, +21 karyotype.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Nutrition and metabolism",
+        "view": "Dietician",
+        "type": "Single-hop reasoning",
+        "instruction": "Provide a suitable nutritional advice for managing condition described in the input.",
+        "input": "A 35-year-old man has recently been diagnosed with diabetes and hypertension.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Nurse",
+        "type": "Multiple-hop reasoning",
+        "instruction": "Recommend a suitable nursing care plan based on patient\u2019s diagnosis, age, and symptoms.",
+        "input": "A 78 year old woman has been admitted to your ward after being diagnosed with heart failure. She shows signs of fatigue, limited mobility and decreased appetite.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Medical Ethics",
+        "view": "Bioethicist",
+        "type": "Text Generation",
+        "instruction": "Discuss the ethical considerations involved in withdrawing life-supporting treatment",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Mental Health",
+        "view": "Psychotherapist",
+        "type": "Chat",
+        "instruction": "Engage the client in an initial conversation to investigate potential mental health issue.",
+        "input": "I'm Jessie and I have been feeling unusual lately. I feel tired all the time, don't enjoy doing things that I usually love, and sometimes even think about hurting myself.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Oncology",
+        "view": "Radiation Oncologist",
+        "type": "Classification",
+        "instruction": "Classify the given tumor according to AJCC staging system",
+        "input": "Tumor size is 3cm, the patient has 1 regional lymph node involved and there is no sign of metastasis.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Immunology",
+        "view": "Researcher",
+        "type": "Summarization",
+        "instruction": "Provide a brief summary of the role of T-cells in human immunity.",
+        "input": "T cells or T lymphocytes are a type of white blood cell that play a central role in immunity. They have several roles including killing infected host cells, activating other immune cells, producing cytokines and regulating immune responses.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Neonatology",
+        "view": "Pediatrician",
+        "type": "Open Q&A",
+        "instruction": "Explain the possible complications of premature birth for the baby and a 36-year old mom.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Patient Education Leaflets",
+        "view": "Medical Expert",
+        "type": "Text Generation",
+        "instruction": "Generate a simplified paragraph explaining the causes and symptoms of secondary hypertension.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "What are the key differences between beta-blockers and calcium channel blockers?",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "General Public",
+        "type": "Chat",
+        "instruction": "Explain what epidemiology is and why it's important in controlling disease spread in simple terms as if you were chatting with a friend. Do not use medical jargons since it is a daily chatting setting.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Immunology",
+        "view": "Medical Expert",
+        "type": "Rewriting",
+        "instruction": "Rewrite the following complex statement on immunology into more common language that could be understood by patients.",
+        "input": "The acquired immune system's lymphocyte repertoire constantly adapts to optimally protect the organism from foreign invaders.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Clinical Pathophysiology",
+        "view": "Clinician",
+        "type": "Summarization",
+        "instruction": "Provide a coherent summarization of this clinical note.",
+        "input": "Patient, male aged 40, has been complaining of intermittent severe chest pain for the last three days. ECG showed ST-segment elevation suggestive of acute myocardial infarction. Troponins were found to be elevated with values about 0.21 ng/ml confirming cardiac injury.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diagnostic Radiology",
+        "view": "Radiologist",
+        "type": "Classification",
+        "instruction": "Classify the given radiology report into the appropriate diagnostic categories. List your reasons.",
+        "input": "There is a speculated opacity seen in the right upper lobe of lung. No evidence of cavitation. Associated hilar lymphadenopathy visible.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "USMLE Style Q&A",
+        "instruction": "Answer the following USMLE style question regarding human anatomy.",
+        "input": "A 32-year-old female presents with difficulty in moving her right shoulder and numbness in the lateral aspect of her upper arm. Physical examination reveals weakness in abduction and lateral rotation of the right shoulder, as well as sensory deficits along the lateral aspect of the upper arm and forearm. Electromyography (EMG) shows denervation of the deltoid muscle. Which nerve is most likely affected in this patient? A) Radial nerve; B) Axillary nerve; C) Musculocutaneous nerve; D) Ulnar nerve; E) Median nerve",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Medical Student",
+        "type": "Multiple-Choice Q&A",
+        "instruction": "Choose the correct answer from the following multiple-choice genetics question.",
+        "input": "What is the primary role of tRNA in protein synthesis? A) Copying the DNA sequence, B) Translating the mRNA sequence into a protein, C) Forming peptide bonds between amino acids, D) Activating genes for transcription.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Clinician",
+        "type": "Multiple-Hop Reasoning",
+        "instruction": "Combine information from two independent clinical notes to determine the most likely diagnosis.",
+        "input": "Note 1: \"Patient displays hyperglycemia and polyuria.\" Note 2: \"No sign of autoantibodies against glutamic acid decarboxylase found in patient's serum sample.",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Neurology",
+        "view": "Medical Expert",
+        "type": "Text Generation",
+        "instruction": "Write an introductory paragraph explaining Parkinson\u2019s disease.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Nephrology",
+        "view": "Medical Student",
+        "type": "Multiple-Choice Q&A",
+        "instruction": "Choose the correct option from the given multiple-choice question on nephrology.",
+        "input": "Which of these conditions is associated with a high anion gap metabolic acidosis? A) Diabetic ketoacidosis, B) Chronic Kidney Disease, C) Loop diuretic use, D) Hyperaldosteronism",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Neurology",
+        "view": "Medical Student",
+        "type": "Text Generation",
+        "instruction": "Generate a summary of the concept \"Myasthenia Gravis\".",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert Clinician",
+        "type": "Open Q&A",
+        "instruction": "Explain how Crohn\u2019s disease affects the gastrointestinal tract.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Patient",
+        "type": "Chat",
+        "instruction": "Ask questions about the possible side effects of starting cholesterol-lowering medication.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "Rewrite",
+        "instruction": "Rewrite the following sentence to be easier for a patient to understand - \"The myocardium experiences ischemia when there is impaired blood flow due to coronary artery blockage.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Radiology",
+        "view": "Medical Student",
+        "type": "Classification",
+        "instruction": "Classify the type of fracture depicted in this radiology report.",
+        "input": "The image exhibits an angled break with two fragments where the broken ends have moved past each other. It seems most prominent near the distal region of the radius.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Public Health Expert",
+        "type": "Single-hop Reasoning",
+        "instruction": "Based on this data, estimate the Reproduction Number (R0)",
+        "input": "An infectious person has arrived in a susceptible population. After seven days there are 4 primary cases and 16 secondary cases.",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Patient",
+        "type": "Multiple-hop reasoning",
+        "instruction": "Given my symptoms and what I read online, what could be wrong with me?",
+        "input": "I've had a fever for four days and now a rash just appeared. I recently got back from hiking in Maine where I found ticks on my dog.",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Medical Professor",
+        "type": "Text Generation",
+        "instruction": "Create a multiple choice question related to the topic of \"blood gas interpretation\" for a medical student.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "Discuss the mechanism of action for Lisinopril. Compare and contrast it with other ACEI drugs.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Highschool Student",
+        "type": "Rewrite",
+        "instruction": "Simplify the following sentence - \"Genome-wide association studies identified a significant genetic variation within the DNMT3B gene correlating with global DNA methylation levels.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Medical Student",
+        "type": "Single-Hop Reasoning",
+        "instruction": "What changes occur in the body during an acute inflammatory response?",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Patient's Perspective",
+        "type": "Text Generation",
+        "instruction": "Describe the common symptoms and probable precautions for Type II Diabetes.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Medical Expert View",
+        "type": "Open Q&A",
+        "instruction": "What are some effective treatments for Chronic Lymphocytic Leukemia?",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Student's View",
+        "type": "Summarization",
+        "instruction": "Summarize the pathophysiology of Alzheimer's disease in a brief, easy-to-understand manner.",
+        "input": "Alzheimer's disease is characterized by the abnormal build-up of proteins in and around brain cells. One of the proteins involved is called amyloid, deposits of which form plaques around brain cells. The other protein is called tau, deposits of which form tangles within brain cells. Although it's not known what causes this process to begin, scientists now believe that it's likely to be a combination of genetic, environmental and lifestyle factors.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Medical Expert",
+        "type": "Classification",
+        "instruction": "Classify the given drug into its correct category.",
+        "input": "Doxorubicin is an anthracycline type of chemotherapy that is used alone or with other treatments/medications. It works by slowing or stopping the growth of cancer cells.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Expert View",
+        "type": "Multiple Choice Q&A",
+        "instruction": "Select the most likely diagnosis based on the provided symptoms and list your reasonings.",
+        "input": "A 56-year-old man presents with a cough, unexplained weight loss, fatigue and shortness of breath. His chest x-ray reveals an abnormal white area on one lung. Choices: A) Tuberculosis B) Common cold C) Asthma D) Lung Cancer",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Medical Student",
+        "type": "Single-Hop Reasoning",
+        "instruction": "Based on the given passage, answer the following question.",
+        "input": "Maryland has seen a sharp increase in Lyme disease cases over the past decade, with more deer ticks testing positive for the bacteria that cause the disease. This suggests that Maryland could be becoming a hotspot for this tick-borne disease.\" Question: \"Why does the text suggest that Maryland could become a hotspot for Lyme disease?",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "Multiple-Hop Reasoning",
+        "instruction": "Given the information below, determine where the gallstones traveled to create these symptoms.",
+        "input": "The patient is experiencing severe pain in her right shoulder blade. An ultrasound showed evidence of gallstones which had left the gallbladder. The stones were detected in another part of the body causing blockage and backflow.\".",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Medical Literacy",
+        "view": "Patient's Perspective",
+        "type": "Chat",
+        "instruction": "Ask the virtual assistant about the common risk factors of colon cancer.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert View",
+        "type": "Open Q&A",
+        "instruction": "Explain how Glomerulonephritis affects kidney function.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Patient\u2019s Perspective",
+        "type": "Text Generation",
+        "instruction": "Write a brief description on how Aspirin helps in preventing heart attacks. Compare and contrast Aspirin vs. Celecoxib.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Expert View",
+        "type": "Single-Hop Reasoning",
+        "instruction": "Based on the provided x-ray, what is your primary impression?",
+        "input": "\u201cA chest X-ray shows widespread interstitial markings predominantly in the lower zones and a small right-sided pleural effusion.\u201d",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Diseases",
+        "view": "Patient's Perspective",
+        "type": "Multiple Choice Q&A",
+        "instruction": "Which disease do I likely have based on my symptoms?",
+        "input": "I'm feeling weak and tired always. My skin looks yellowish, especially the whites of my eyes. There are times when I experience dark urine.\" Choices: A) Jaundice B) Osteoporosis C) Heat stroke D) Influenza",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Student",
+        "type": "Text Generation",
+        "instruction": "Summarize the main concepts and processes involved in cellular respiration, highlighting its importance in the body.",
+        "input": "<noinput>",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "USMLE Student",
+        "type": "Multiple-Choice Q&A",
+        "instruction": "Based on the patient's symptoms, identify which neurological disorder he is likely suffering from.",
+        "input": "A 62-year-old man presents to the clinic with difficulty writing, changes in speech, and memory issues that have been progressing over six months. He also reports frequent falls and stiffness in his arms and legs. His medical history is significant for hypertension. Cognitive examination shows impaired judgment and social conduct with an intact memory. Neurological exam reveals symmetric rigidity in upper and lower extremities without tremor. Rapid alternating movements are slow and clumsy. Based on these findings, which of the following diseases is the most likely diagnosis? A) Alzheimer's disease B) Parkinson's disease C) Progressive supranuclear palsy D) Huntington's disease E) Multiple sclerosi",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Clinical Diagnoses",
+        "view": "Specialist Doctor",
+        "type": "Single-Hop Reasoning",
+        "instruction": "Using the provided clinical notes, infer the primary health concern of the patient.",
+        "input": "The patient has a BMI of 32 and complains of fatigue, excessive thirst, and unexplained weight loss over the past month despite good appetite. Recent blood tests show fasting plasma glucose levels consistently above 126 mg/dl",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Patient",
+        "type": "Open-ended Q&A",
+        "instruction": "List questions you would like to ask your doctor about a new medication you've been prescribed.",
+        "input": "I have just been prescribed Lisinopril for my newly diagnosed hypertension",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Diseases and Epidemiology",
+        "view": "Disease Expert",
+        "type": "Chat",
+        "instruction": "Start a conversation with a concerned citizen asking about the spread and containment of recent measles outbreaks.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Geneticist",
+        "type": "Summarization",
+        "instruction": "Provide a short overview of the principles of Mendelian inheritance, focusing on key terminology and essential concepts. Explain a known disease using the concept of Mendelian inheritance.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medical Student",
+        "type": "USMLE Style Q&A",
+        "instruction": "Answer the question using your knowledge of human anatomy.",
+        "input": "A 55-year-old woman presents with a sudden loss of vision in her right eye. She also reports numbness and weakness in her right leg and difficulty walking. On examination, you note that her right eye has an afferent pupillary defect (Marcus Gunn pupil), and there is weakness in her right leg with increased reflexes. She has difficulty with heel-to-shin testing on the right side. An MRI of the brain and spinal cord shows a demyelinating lesion in the white matter of the cervical spinal cord. Which of the following structures is most likely affected by this demyelinating lesion? A) Corticospinal tract; B) Medial lemniscus; C) Spinothalamic tract; D) Dorsal root ganglion; E) Anterior horn cell",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Primary Care Clinician",
+        "type": "Classification",
+        "instruction": "Using the patient's radiology report, classify whether the displayed abnormality suggests benign or malignant characteristics.",
+        "input": "A 45-year-old woman presents with a lump in her right breast. Mammography reveals an irregular shaped mass with indistinct margins and several calcifications are observed within the lesion",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Medical Student",
+        "type": "Open Q&A",
+        "instruction": "Explain how the autoimmune reaction in type 1 diabetes affects the pancreas.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Radiology Report Interpretation",
+        "view": "Radiologist",
+        "type": "Chat",
+        "instruction": "Analyze and give a tentative diagnosis from this radiology report.",
+        "input": "The patient is a 47-year-old male with a history of chronic smoking. Chest X-ray shows a right upper lobe opacity with loss of volume and crowding of ribs suggestive of fibrosis. Trachea is deviated towards the same side. No obvious hilar or mediastinal lymphadenopathy",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Epidemics",
+        "view": "Epidemiologist",
+        "type": "Text Generation",
+        "instruction": "Write a brief summary about the 2009 H1N1 influenza pandemic, including the origins, spread, and interventions.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Medical Writer",
+        "type": "Rewrites",
+        "instruction": "Rewrite this paragraph to be understandable to patients.",
+        "input": "Metformin primarily reduces hepatic glucose production and improves insulin sensitivity. This means it helps your liver stop producing so much sugar and makes your body better ready to use the insulin you already produce",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Geneticist",
+        "type": "Summarization",
+        "instruction": "Summarize the main findings of this genetic study on Alzheimer's Disease.",
+        "input": "Our comprehensive genomic analysis involved examining the genetic sequences of 1,500 individuals in total - 750 early-onset sporadic Alzheimer's patients, and 750 healthy controls. We observed a significant association between early onset Alzheimer\u2019s disease and a number of variants in the ABCA7 gene. This gene is known to influence the process of phagocytosis, indicating that defective removal of harmful cellular waste could be contributing towards an increased risk of Alzheimer's disease",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Disease Symptoms",
+        "view": "Patient",
+        "type": "Classification",
+        "instruction": "Categorize these symptoms as belonging to either a cold, the flu, or COVID-19.",
+        "input": "The person is suffering from a new loss of taste or smell, has a fever over 100 degrees Fahrenheit, and persistent cough",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Cardiology",
+        "view": "Medical Student",
+        "type": "USMLE Style Q&A",
+        "instruction": "Answer the following question which aims to test your knowledge about blood flow in the heart.",
+        "input": "A 50-year-old man with a history of hypertension presents to the emergency department with complaints of chest pain radiating to his left arm, shortness of breath, and diaphoresis. An electrocardiogram (ECG) shows ST-segment elevation in leads II, III, and aVF. Cardiac enzymes are elevated. Which of the following changes is most likely occurring in the coronary circulation during this acute event? A) Vasodilation of coronary arteries; B) Decreased oxygen extraction by the myocardium; C) Decreased coronary blood flow; D) Decreased coronary artery resistance; E) Increased capillary filtration in the myocardium",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Medicine Tutor",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Choose the correct answer to this question related to human anatomy.",
+        "input": "Which bone is found directly anterior to the sphenoid bone in a normal human skull? A) Ethmoid bone B) Temporal bone C) Zygomatic bone D) Maxilla",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diagnoses",
+        "view": "Clinician",
+        "type": "Single-hop Reasoning",
+        "instruction": "Infer possible diagnoses based on the given statement and state why.",
+        "input": "James presents with severe chest pain radiating to his left arm and jaw, accompanied by shortness of breath, nausea, and sweating heavily for the past two hour",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Treatment Plan",
+        "view": "Primary Care Physician",
+        "type": "Multiple-Hop Reasoning",
+        "instruction": "Propose a treatment plan concerning the disease mentioned.",
+        "input": "A patient was recently diagnosed with Parkinson's Disease. He suffers from hand tremors, shuffling gait, and trouble initiating movement",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Medical Student",
+        "type": "Multiple-Choice Q&A",
+        "instruction": "Answer the following multiple-choice question about pharmacology. Choose the correct action of the drug Lisinopril.",
+        "input": "What is the principal mechanism of action of the drug Lisinopril? A) It's a Beta blocker, and it works by reducing heart rate and blood pressure. B) It belongs to ACE inhibitors class, inhibiting the conversion of angiotensin I to angiotensin II. C) It's an Angiotensin receptor blocker (ARB), blocking the binding of angiotensin II to its receptor. D) It acts as a Calcium Channel Blocker, inhibiting calcium ions from entering cells of the heart",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Diseases and Diagnosis",
+        "view": "Expert Clinician",
+        "type": "Text Generation",
+        "instruction": "Given the patient's symptoms and lab results, generate a possible diagnosis.",
+        "input": "The patient is a 55-year-old male with a long history of smoking. Chief complaint is progressive shortness of breath for the past 3 months along with persistent dry cough. No chest pain or hemoptysis noted. Physical examination reveals prolonged expiration along with expiratory wheezing. Lab findings include - Hb: 14 g/dL, WBC: 7800/\u00b5L, Platelet count: 220,000/\u00b5L. Arterial blood gas analysis shows a decreased PaO2 and an increased PaCO2. Lung function tests reveal reduced FEV1/FVC ratio",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Patient",
+        "type": "Open Q&A",
+        "instruction": "How would you explain the circulatory system in simple terms?",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Medical Student",
+        "type": "USMLE Style Q&A",
+        "instruction": "Prepare to answer a USMLE-style question on the topic of pathophysiology. Please provide both the correct response and a short explanation for your choice.",
+        "input": "A 4-month-old infant is brought to the pediatrician by her parents who are concerned about her failure to gain weight and recurrent infections. On examination, the child has no lymph nodes palpable, and her chest is clear. Lab investigations show extremely low immunoglobin levels and absence of B cells. Which of the following conditions is most likely in this patient? A) Acute Lymphocytic Leukemia B) Severe Combined Immunodeficiency C) X-linked Agammaglobulinemia D) Chronic Granulomatous disease",
+        "difficulty": "4"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Expert Clinician",
+        "type": "Chat",
+        "instruction": "Engage in a conversation where you explain what genetic counseling is.",
+        "input": "<noinput>",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Public Health Official",
+        "type": "Single Hop Reasoning",
+        "instruction": "Based on the provided epidemiological data, determine the disease's spreading pattern. ",
+        "input": "Disease A: Reported cases have remained steady at approximately 50 per month in the population over the past three years. Disease B: Cases spiked to 3000 during the winter months but were negligible at other times. Disease C: Over the last two months, there has been a sharp increase in cases from almost none to thousand",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Treatment & Prevention",
+        "view": "Patient",
+        "type": "Rewrite",
+        "instruction": "Rewrite the given medical advice into simpler terms. Ensure that the message remains clear and accurate.",
+        "input": "To alleviate discomfort associated with hemorrhoidal symptoms, it can be helpful to soak in a warm bath and apply topical anti-inflammatory drugs. Moreover, include more fiber in your diet to prevent constipation, thus reducing straining during bowel movements which aggravates hemorrhoid",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Medical School Admissions Officer",
+        "type": "Classification",
+        "instruction": "Classify the submitted personal statement into one of three categories: 'Exceeds Expectations', 'Meets Expectations', or 'Below Expectations', based on its content and style.",
+        "input": "I am a prospective medical student who has spent several years volunteering at the local hospital, where I got exposed to various fields of medicine. These experiences heightened my interest in helping people through medicine. While working alongside skilled physicians, I saw firsthand how they balanced clinical expertise with empathy\u2014an approach I hope to emulate in my career. Additionally, my academic records exemplify my dedication to mastering the requisite knowledge for this demanding profession. Notwithstanding, I remain aware that there is much more I need to learn, and I am ready for the challenge medical school present",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Cardiovascular Diseases",
+        "view": "Medical Students",
+        "type": "Open Q&A",
+        "instruction": "Explain the pathophysiology of atherosclerosis in simple terms.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Pharmacology",
+        "view": "Experts",
+        "type": "Text Generation",
+        "instruction": "Write a brief overview of the mechanism of action of ACE inhibitors in hypertension management.",
+        "input": "\"ACE inhibitors (Angiotensin Converting Enzyme Inhibitors) are widely recognized as effective drugs in controlling high blood pressure. They are also employed in managing other health conditions like heart failure, kidney disease, and certain types of chronic liver diseases. Despite their efficacy, they possess a complexity that needs exploration. This includes enzymatic conversions, receptor activations and the eventual lowering of blood pressure levels.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Genetics",
+        "view": "Patients",
+        "type": "Rewrite Task",
+        "instruction": "Simplify this genetic explanation into an easy-to-understand statement for patients.",
+        "input": "\"Genetic mutations in the BRCA1 and BRCA2 genes increase the risk of developing breast and ovarian cancer because these mutations prevent cells from repairing damaged DNA effectively, which can lead to unregulated cell growth.",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Radiology Reports",
+        "view": "Clinicians",
+        "type": "Classification Task",
+        "instruction": "Classify this radiology report based on its findings. Does it indicate a normal or abnormal condition?",
+        "input": "\"The images demonstrate multiple round shadows scattered across both lung fields suggestive of metastasis from primary carcinoma.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Medical Education",
+        "view": "Medical Students",
+        "type": "Summarization",
+        "instruction": "Provide a summary of the main points in the given medical research article about advances in telemedicine.",
+        "input": "\"Telemedicine is rapidly proliferating due to broader adoption of digital technologies and increased patient preference for remote consultations amid the COVID-19 pandemic. The use of technology-enabled care models has the potential to overcome geographical barriers and improve accessibility to quality healthcare. In particular, tele-oncology has emerged as a valuable tool in managing cancer patients. However, there remain challenges such as legal and regulatory issues, lack of personal interaction, and technological glitches that must be addressed. Future research should aim to optimize the balance between virtual care and traditional face-to-face interactions.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Epidemiology",
+        "view": "Medical Students",
+        "type": "USMLE Style Q&A",
+        "instruction": "Answer the following USMLE-style question based on the scenario.",
+        "input": "A public health department investigates an outbreak of a rare foodborne illness in a small town. They identify a specific restaurant as the source of the outbreak and trace the contamination back to a contaminated batch of ground beef used in the restaurant's hamburgers. Subsequent laboratory testing confirms the presence of a unique strain of Escherichia coli (E. coli) in both the patients and the contaminated beef. What type of epidemiological study is best suited to investigate the association between consuming hamburgers at the restaurant and the risk of developing the foodborne illness? A) Case-control study; B) Cohort study; C) Cross-sectional study; D) Ecological study; E) Randomized controlled trial (RCT) ",
+        "difficulty": "5"
+    },
+    {
+        "topic": "Anatomy",
+        "view": "Patients",
+        "type": "Multiple-choice Q&A",
+        "instruction": "Choose the correct answer. Where in your body will you find the tibia bone?",
+        "input": "\"A) Arm B) Foot C) Skull D) Leg",
+        "difficulty": "1"
+    },
+    {
+        "topic": "Treatment",
+        "view": "Experts",
+        "type": "Multiple-hop Reasoning",
+        "instruction": "Based upon the given clinical notes, deduce the best course of treatment.",
+        "input": "\"Patient, aged 62, presents with persistent pain and stiffness in both knees with a history of gradual onset over the past two years. X-Ray findings are suggestive of moderate joint space narrowing and marginal osteophytes.",
+        "difficulty": "3"
+    },
+    {
+        "topic": "Pathophysiology",
+        "view": "Expert (Physician)",
+        "type": "Text Generation",
+        "instruction": "Generate a concise summary of the pathophysiology of type II Diabetes Mellitus.",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Medical treatment",
+        "view": "Student",
+        "type": "Open Q&A",
+        "instruction": "Answer the question in the context of pharmacology - which drug is commonly used for treating hypertension and how it works?",
+        "input": "<noinput>",
+        "difficulty": "2"
+    },
+    {
+        "topic": "Diseases and Diagnosis",
+        "view": "Medical Practitioner",
+        "type": "Open Q&A",
+        "instruction": "Given the following description, generate any possible diagnoses and state your reasonings.",
+        "input": "The patient has been experiencing mild upper abdominal bloating and discomfort since August 2010, with no apparent triggers. The discomfort is particularly noticeable when hungry and tends to improve after eating. There is no associated nausea, vomiting, acid reflux, belching, or diarrhea. The diagnosis of duodenal ulcer was considered, and the patient was prescribed omeprazole, which relieved the pain but left the upper abdominal bloating unresolved.",
+        "difficulty": "5"
+    }
+]
