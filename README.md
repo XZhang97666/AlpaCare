@@ -76,6 +76,17 @@ output: "Here's a more patient-friendly version of the instruction on how to use
 4. Hold your breath for ten seconds. 5. Finally, breathe out gently."
 }
 ```
+To generate the data:
+
+Please check task generation script: 
+```
+sh task_output_generation/task_generation.sh
+```
+and output generation script:
+```
+sh task_output_generation/output_generation.sh
+```
+
 
 
 In instruction data analysis, we demonstrate the diversity of the *MedInstruct-52K* in terms of:
