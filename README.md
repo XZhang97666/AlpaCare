@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img src="logo.png" style="width: 30%; min-width: 200px; display: block; margin: auto;">
+    <img src="plots/logo.png" style="width: 30%; min-width: 200px; display: block; margin: auto;">
 </p>
 
 
@@ -76,20 +76,20 @@ In instruction data analysis, we demonstrate the diversity of the *MedInstruct-5
 (a) **Instruction Language**: The inner circle displays the 20 most frequent root verbs, while the outer circle showcases the top 4 associated noun objects from the generated instructions. Although there is a wide range, only 22\% of the instructions are covered, as others do not adhere to the verb-noun format.
 
 <p align="center">
-  <img src="datastats.png" width="500" alt="Instruction Language Analysis" />
+  <img src="plots/datastats.png" width="500" alt="Instruction Language Analysis" />
 </p>
 
 (b) **View**: The top 20 frequent views from various medical personnel constitute 55\% of *MedInstruct-52K*.
 
 <p align="center">
-  <img src="./viewstats.png" width="500" alt="View Analysis" />
+  <img src="plots/viewstats.png" width="500" alt="View Analysis" />
 </p>
 
 (c) **Task Types** The top 20 covered in *MedInstruct-52K*. Existing medical instruction-tuned models only focus on question-answering and doctor-patient conversation tasks.
 
 
 <p align="center">
-  <img src="./typestats.png" width="500" alt="Task Types Analysis" />
+  <img src="plots/typestats.png" width="500" alt="Task Types Analysis" />
 </p>
 
 
