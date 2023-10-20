@@ -1,7 +1,7 @@
 DATA_DIR=<Your DATA PATH>
 OUTPUT_DIR=<OUTPUT DIRECTORY>
 
-# suggest: elinas/llama-7b-hf-transformers-4.29
+# suggest: elinas/llama-13b-hf-transformers-4.29
 
 torchrun --nproc_per_node=8 --master_port=54321 train_alpaca.py \
     --model_name_or_path /path/to/llama-13b \
@@ -16,6 +16,7 @@ torchrun --nproc_per_node=8 --master_port=54321 train_alpaca.py \
     --save_strategy "steps" \
     --save_steps 200000 \
     --save_total_limit 1 \
+    --model_max_length 1024 \
     --learning_rate 1e-5 \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
