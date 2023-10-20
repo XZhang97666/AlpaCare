@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 We following the data generation pipeline from [self-instruct](https://github.com/yizhongw/self-instruct) and [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html), and modified several points:
 *Instructions*:
-  - Beginning with a medical task seed set that contains 167 clinical-craft clinical tasks.
+  - Beginning with a [medical task seed set](https://github.com/XZhang97666/AlpaCare/blob/master/data/med_seed.json) that contains 167 clinical-craft clinical tasks.
   - Utilizing the GPT-4 engine for instruction data generation.
   - Crafting a [prompt](https://github.com/XZhang97666/AlpaCare/blob/master/prompt/instruction_prompt.txt) to serve as the medical instruction generation guidelines for GPT-4.
   - To reduce costs in task generation and introduce greater randomness, 12 instructions are generated at once. This is followed by the selection of 3 random seed instructions from the seed set.
