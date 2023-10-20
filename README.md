@@ -98,10 +98,11 @@ In instruction data analysis, we demonstrate the diversity of the *MedInstruct-5
 We follows [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) prompt to fine-tune LLaMA serises models and use standard Hugging Face training code.
 
 For the instruction-finetuning of LLaMA/LLaMA-7B:
+```
 sh training/train_7b.sh
 For the instruction-finetuning of LLaMA/LLaMA-13B:
 sh training/train_13b.sh
-
+```
 
 To reproduce our fine-tuning runs for LLaMA, first install the requirements
 
