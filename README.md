@@ -11,10 +11,10 @@ This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. T
 - A 217 clinical craft free-form instruction evaluation test set,*MedInstruct-test*.
 - The weights of AlpaCare models (7B and 13B on LLaMA and LLaMA-2, respectively.)
 - The code for:
-    1. medical task generation;
-    2. fine-tuning LLaMA series models;
-    3. fine-tuned model response generation;
-    4. response evaluation via LLMs.
+    1. [medical task generation](https://github.com/XZhang97666/AlpaCare/tree/master/test_generation);
+    2. [fine-tuning LLaMA series models](https://github.com/XZhang97666/AlpaCare/tree/master/training);
+    3. [instrcution-tuned model response generation](https://github.com/XZhang97666/AlpaCare/tree/master/test_generation);
+    4. [response evaluation via LLMs](https://github.com/XZhang97666/AlpaCare/tree/master/evaluation).
 
 ## Overview
 *AlpaCare* models contain 4 models (7B/13B - LLaMA[1]/LLaMA-2[2]) tuned on a 52k medical instruction-following dataset *MedInstruct-52k*, following Alpaca[3] and Self-Instruct[4]. 
