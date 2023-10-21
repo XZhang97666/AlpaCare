@@ -133,7 +133,9 @@ sh training/train_13b.sh
 
 ## Free-form Instcurion Evulation 
 
-<p align="center">
+
+(a) Evaluation results using `gpt-turbo-3.5` as a judge on 7-B instruction-tuned models across three tasks in both general and medical domains. AlpaCare demonstrates strong generalization and medical capability.
+<p>
   <img src="plots/chat_gpt_eval_7b.png" width="500" alt="Task Types Analysis" />
 </p>
 
