@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img src="plots/logo.png" style="width: 30%; min-width: 200px; display: block; margin: auto;">
+    <img src="plots/logo.png" style="width: 50%; min-width: 200px; display: block; margin: auto;">
 </p>
 
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 [4]: Self-Instruct: Aligning Language Model with Self Generated Instructions. Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi. https://arxiv.org/abs/2212.10560
 
 
-## Data release
+## Data Release
 [*MedInstruct*](https://huggingface.co/datasets/xz97/MedInstruct) contains:
 - MedInstruct datasets:
     1. *MedInstruct-52K*: 52 medical instruction-following data we used for fine-tuning *AlpaCare* models
@@ -129,6 +129,18 @@ For the instruction-finetuning of LLaMA/LLaMA-13B:
 ```
 sh training/train_13b.sh
 ```
+
+
+## Free-form Instcurion Evulation 
+
+<p align="center">
+  <img src="plots/chat_gpt_eval_7b.png" width="500" alt="Task Types Analysis" />
+</p>
+
+
+
+
+
 
 
 
