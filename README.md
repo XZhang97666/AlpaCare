@@ -15,9 +15,18 @@ This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. T
     2. [fine-tuning LLaMA series models](https://github.com/XZhang97666/AlpaCare/tree/master/training);
     3. [instrcution-tuned model response generation](https://github.com/XZhang97666/AlpaCare/tree/master/test_generation);
     4. [response evaluation via LLMs](https://github.com/XZhang97666/AlpaCare/tree/master/evaluation).
+ 
+
 
 ## Overview
-*AlpaCare* models contain 4 models (7B/13B - LLaMA[1]/LLaMA-2[2]) tuned on a 52k medical instruction-following dataset *MedInstruct-52k*, following Alpaca[3] and Self-Instruct[4]. 
+*AlpaCare* models contain 4 models (7B/13B - LLaMA[1]/LLaMA-2[2]) tuned on a 52k medical instruction-following dataset *MedInstruct-52k*, following Alpaca[3] and Self-Instruct[4]. You can find our model weights at:
+
+| Version | Link  |
+| --- | --- | 
+| *AlpaCare* -LLaMA_7B |[https://huggingface.co/xz97/AlpaCare-llama1-7b](https://huggingface.co/xz97/AlpaCare-llama1-7b)|
+| *AlpaCare* -LLaMA2_7B |-|
+| *AlpaCare* -LLaMA_13B |-|
+| *AlpaCare* -LLaMA2_13B |-|
 
 To set up conda enviroment for data generation/model training, please do:
 
