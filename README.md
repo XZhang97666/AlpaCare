@@ -130,11 +130,12 @@ For the instruction-finetuning of LLaMA/LLaMA-13B:
 sh training/train_13b.sh
 ```
 
-## Experiments.
+## Experiments
 
-We compare *AlpaCare* with several instruction-tuned LLMs based on the LLaMA models, across different scales and with various tuning datasets. Free-form instrcution evaluations are conducted by evulating on iClinq, a patient-doctor conversation set, and a medical instruction test set crafted by our clinicians (*MedInstruct-test*). To further evaluate  generalization ability, we use general domain test set, AlpacaFarm. 
+We compare *AlpaCare* with several instruction-tuned LLMs based on the LLaMA models, across different scales and with various tuning datasets. Free-form instruction evaluations are conducted by evaluating on iClinq, a patient-doctor conversation set, and a medical instruction test set crafted by our clinicians (MedInstruct-test). To further evaluate the generalization ability, we use a general domain test set, AlpacaFarm.
 
-*AlpaCare* shows strong medical capacity and generalization ability comparing to baselines on both 7B and 13B scale. We follow AlpacaFarm to uilize gpt-tubro-3.5 as the judge for the comparsion. We compare each instrcution-tunned model with 4 distinct reference models : text-davinci-003, gpt-3.5-turbo, gpt-4 and claude-2, respectively.
+*AlpaCare* shows strong medical capacity and generalization ability compared to baselines on both 7B and 13B scales. We follow AlpacaFarm to utilize gpt-turbo-3.5 as the judge for the comparison. We compare each instruction-tuned model with 4 distinct reference models: text-davinci-003, gpt-3.5-turbo, gpt-4, and claude-2, respectively.
+
 
 <p align="center">
   <img src="plots/7b-model-results-1.png" width="500" alt="Task Types Analysis" />
@@ -145,7 +146,7 @@ We compare *AlpaCare* with several instruction-tuned LLMs based on the LLaMA mod
 </p>
 
 
-
+We provide all [the reference model output](https://github.com/XZhang97666/AlpaCare/tree/master/data/reference_outputs) and [instcution-tunned model ouput](https://github.com/XZhang97666/AlpaCare/tree/master/data/model_outputs)
 
 
 
