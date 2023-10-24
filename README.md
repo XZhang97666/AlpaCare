@@ -158,6 +158,18 @@ We compare *AlpaCare* with several instruction-tuned LLMs based on the LLaMA mod
 We provide all [the reference model output](https://github.com/XZhang97666/AlpaCare/tree/master/data/reference_outputs) and [instcution-tunned model ouput](https://github.com/XZhang97666/AlpaCare/tree/master/data/model_outputs)
 
 
+## Citation:
+If you think it is a useful repo, please cite the paper:
 
+```
+@misc{zhang2023alpacareinstructiontuned,
+      title={AlpaCare:Instruction-tuned Large Language Models for Medical Application}, 
+      author={Xinlu Zhang and Chenxin Tian and Xianjun Yang and Lichang Chen and Zekun Li and Linda Ruth Petzold},
+      year={2023},
+      eprint={2310.14558},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 
