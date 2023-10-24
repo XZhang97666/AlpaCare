@@ -5,7 +5,7 @@
 
 # AlpaCare: Instruction-tuned Large Language Models for Medical Applications
 
-This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. The repo contains:
+This is the repo for [*AlpaCare*](https://arxiv.org/pdf/2310.14558v1.pdf), which are LLMs tuned on medical instructions. The repo contains:
 
 - The 52K medical instruction-response dataset [*MedInstruct-52k*](https://github.com/XZhang97666/AlpaCare/blob/master/data/MedInstruct-52k.json) used for fine-tuning *AlpaCare*, and corresponding [clinican-crafted seed task](https://github.com/XZhang97666/AlpaCare/blob/master/data/med_seed.json) to generate instruction. 
 - A 217 clinical craft free-form instruction evaluation test set,[*MedInstruct-test*](https://github.com/XZhang97666/AlpaCare/blob/master/data/MedInstruct-test.jsonl).
