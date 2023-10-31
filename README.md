@@ -30,7 +30,7 @@ This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. T
 | *AlpaCare* -LLaMA_13B |[https://huggingface.co/xz97/AlpaCare-llama-13b](https://huggingface.co/xz97/AlpaCare-llama-13b)|
 | *AlpaCare* -LLaMA2_13B |[https://huggingface.co/xz97/AlpaCare-llama2-13b](https://huggingface.co/xz97/AlpaCare-llama2-13b)|
 
-To set up conda enviroment for data generation/model training, please do:
+To set up conda environment for data generation/model training, please do:
 
 ```bash
 pip install -r requirements.txt
