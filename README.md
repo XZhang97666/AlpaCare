@@ -1,7 +1,7 @@
 <p align="center">
 <img width="500px" alt="AlpaCare" src="plots/logo.png">
 </p>
-<p align="center"><a href="https://arxiv.org/pdf/2310.14558v1.pdf">[📄 Paper]</a> </p>
+<!-- <p align="center"><a href="https://arxiv.org/pdf/2310.14558v1.pdf">[📄 Paper]</a> </p> -->
 
 # AlpaCare: Instruction-tuned Large Language Models for Medical Applications
 <hr>
