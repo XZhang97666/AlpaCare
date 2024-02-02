@@ -25,10 +25,10 @@ This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. T
 
 | Version | Link  |
 | --- | --- | 
-| *AlpaCare* -LLaMA_7B |[https://huggingface.co/xz97/AlpaCare-llama1-7b](https://huggingface.co/xz97/AlpaCare-llama1-7b)|
-| *AlpaCare* -LLaMA2_7B |[https://huggingface.co/xz97/AlpaCare-llama2-7b](https://huggingface.co/xz97/AlpaCare-llama2-7b)|
-| *AlpaCare* -LLaMA_13B |[https://huggingface.co/xz97/AlpaCare-llama-13b](https://huggingface.co/xz97/AlpaCare-llama-13b)|
-| *AlpaCare* -LLaMA2_13B |[https://huggingface.co/xz97/AlpaCare-llama2-13b](https://huggingface.co/xz97/AlpaCare-llama2-13b)|
+| *AlpaCare* -LLaMA_7B |[AlpaCare-llama1-7b](https://huggingface.co/xz97/AlpaCare-llama1-7b)|
+| *AlpaCare* -LLaMA2_7B |[AlpaCare-llama2-7b](https://huggingface.co/xz97/AlpaCare-llama2-7b)|
+| *AlpaCare* -LLaMA_13B |[AlpaCare-llama-13b](https://huggingface.co/xz97/AlpaCare-llama-13b)|
+| *AlpaCare* -LLaMA2_13B |[AlpaCare-llama2-13b](https://huggingface.co/xz97/AlpaCare-llama2-13b)|
 
 To set up conda enviroment for data generation/model training, please do:
 
