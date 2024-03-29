@@ -8,7 +8,7 @@
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/XZhang97666/AlpaCare/blob/master/LICENSE)
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/XZhang97666/AlpaCare/blob/master/DATA_LICENSE)
-[![Weight Diff License](https://img.shields.io/badge/Weight%20Diff%20License-CC%20By%20NC%204.0-yellow)](https://github.com/XZhang97666/AlpaCare/blob/master/WEIGHT_LICENSE)
+[![Weight License](https://img.shields.io/badge/Weight%20Diff%20License-CC%20By%20NC%204.0-yellow)](https://github.com/XZhang97666/AlpaCare/blob/master/WEIGHT_LICENSE)
 
 
 This is the repo for *AlpaCare*, which are LLMs tuned on medical instructions. The repo contains:
